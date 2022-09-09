@@ -20,7 +20,7 @@ public final class PlayerListener implements Listener {
                     try {
                         directional.setFacing(FacingUtil.getOppositeFacing(directional.getFacing()));
                         event.getBlock().setBlockData(directional);
-                    }catch (Exception ignored) {
+                    } catch (Exception ignored) {
                     }
                 }
             }
